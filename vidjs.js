@@ -3,5 +3,5 @@ videojs.plugin('pluginLocalize', function() {
       "play Video": "dont",
       "hello":"voila",
       "Goodbye": "Auf Wiedersehen",
-      "Auf Wiedersehen":"goodbye"
+      
   });
