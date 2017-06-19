@@ -3,4 +3,4 @@ videojs.plugin('pluginLocalize', function() {
   videojs.addLanguage('de',{'video':'amore'});
   videojs.addLanguage('ar',{'video':'amore'});
 });
-videojs('player').pluginLocalize();
+//videojs('player').pluginLocalize();
