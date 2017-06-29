@@ -1,1 +1,2 @@
-.video-js:hover .vjs-big-play-button{background:red !important}
+.video-js:hover .vjs-big-play-button{background:red;}
+.video-js:hover .vjs-progress-control{height:6px;}
