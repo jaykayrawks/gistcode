@@ -6,17 +6,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.bc-player-HkyH4d9NW_default .vjs-big-play-button {
+.video-js .vjs-big-play-button {
 	border: 2px solid white;
 }
-.bc-player-HkyH4d9NW_default .vjs-big-play-button {
+.video-js .vjs-big-play-button {
 	background-color: rgba(0, 0, 0, 0.3);
 }
-.bc-player-HkyH4d9NW_default:hover .vjs-big-play-button, .bc-player-HkyH4d9NW_default:active .vjs-big-play-button, .bc-player-HkyH4d9NW_default .vjs-big-play-button:active, .bc-player-HkyH4d9NW_default .vjs-big-play-button:focus {
+.video-js:hover .vjs-big-play-button, .video-js:active .vjs-big-play-button, .video-js .vjs-big-play-button:active, .video-js .vjs-big-play-button:focus {
 	background-color: rgba(0, 0, 0, 0.7)
 }
 
-.bc-player-HkyH4d9NW_default .vjs-big-play-button {
+.video-js .vjs-big-play-button {
 	margin-left: -1em;
     margin-top: -.75em;
     width: 1.5em;
