@@ -23,6 +23,7 @@
     height: 1.5em;
     line-height: 1.5em;	
 }
-.bc-player-BkzbOUQRmW_default .vjs-progress-control{
-height:0.33em;
-}	
+.video-js .vjs-progress-control,.video-js .vjs-progress-control:hover {
+    height: 0.33em;
+    top: -0.33em;
+}
