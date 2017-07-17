@@ -31,10 +31,10 @@
 top:-2.4em;
 }
 
-.video-js .vjs-dock-text,.video-js.vjs-has-started.not-hover .vjs-dock-text{
+.video-js .vjs-dock-text{
  {
 opacity:0;
 }
-.video-js.vjs-has-started .vjs-dock-text {
+.video-js.vjs-has-started:not('.not-hover') .vjs-dock-text {
 opacity:1;
 }
