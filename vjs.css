@@ -30,3 +30,10 @@
 .video-js .vjs-time-tooltip {
 top:-2.4em;
 }
+
+.video-js .vjs-dock-text {
+opacity:0;
+}
+.video-js.vjs-has-started .vjs-dock-text {
+opacity:1;
+}
