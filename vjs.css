@@ -35,6 +35,6 @@ top:-2.4em;
  {
 opacity:0;
 }
-.video-js.vjs-has-started:not('.not-hover') .vjs-dock-text {
+.video-js.vjs-has-started:not(.not-hover) .vjs-dock-text {
 opacity:1;
 }
