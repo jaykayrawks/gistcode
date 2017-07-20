@@ -5,6 +5,11 @@
 */
 
 /* CSS Document */
+.video-js,.bc-player-BkzbOUQRmW_default{
+width:100%;
+height:100%;
+position:absolute;
+}
 
 .video-js .vjs-big-play-button {
 	border: 2px solid white;
