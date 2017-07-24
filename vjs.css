@@ -42,4 +42,6 @@
 	height:100%;
 	padding-top: 56.25%;
 }
-   
+.bc-iframe, .bc-iframe body, .bc-player-BkzbOUQRmW_default, .bc-player-BkzbOUQRmW_default .vjs-poster{
+	   background-color: transparent;
+}
