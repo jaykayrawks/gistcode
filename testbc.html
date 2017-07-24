@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Social Media Plugin</title>
+
+    <style>
+        /* player dimensions */
+        .video-js {
+            width: 640px;
+            height: 360px;
+        }
+    </style>
+</head>
+
+<body>
+
+  <video id="myPlayer"
+    data-account="1752604059001"
+    data-player="a252c366-2867-4033-9f22-3caee828beef"
+    data-embed="default"
+    data-video-id="4093643993001"
+    class="video-js" controls></video>
+    <script src="//players.brightcove.net/1752604059001/a252c366-2867-4033-9f22-3caee828beef_default/index.min.js"></script>
+
+    <script type="text/javascript">
+
+        var myPlayer = videojs('myPlayer');
+
+        var options = {
+            "title": "Tiger",
+            "description": "Video of two tigers",
+            "url": "https://solutions.brightcove.com/bcls/brightcove-player/social-plugin/social-media.html",
+            "embedCode": "<iframe src='http://bcove.me/niqx01er'>"
+            "deeplinking": true,
+            "offset": "00:00:05",
+            "services": {
+                "facebook": true,
+                "google": true,
+                "twitter": true,
+                "tumblr": true,
+                "pinterest": true,
+                "linkedin": true
+            }
+        };
+
+    myPlayer.social(options);
+
+  </script>
+
+</body>
+</html>
+Copy
+You should see the so
