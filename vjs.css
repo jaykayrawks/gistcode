@@ -45,3 +45,8 @@
 .bc-iframe, .bc-iframe body, .bc-player-BkzbOUQRmW_default, .bc-player-BkzbOUQRmW_default .vjs-poster{
 	   background-color: transparent;
 }
+.video-js .vjs-control-bar{
+height:36px;}
+.video-js .vjs-control-bar .vjs-time-control,.video-js .vjs-control-bar .vjs-time-control span{
+font-size:13px;
+}
