@@ -57,3 +57,9 @@ height:36px;}
 .video-js .vjs-control-bar .vjs-time-control,.video-js .vjs-control-bar .vjs-time-control span{
 font-size:13px;
 }
+
+.video-js .vjs-control-bar .vjs-play-control,
+.video-js .vjs-control-bar .vjs-volume-control,
+.video-js .vjs-control-bar .vjs-time-control,
+.video-js .vjs-control-bar .vjs-fullscreen-control{margin-top:-3px;}
+
