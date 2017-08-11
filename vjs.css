@@ -47,6 +47,13 @@
 }
 .video-js .vjs-control-bar{
 height:36px;}
+.bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar {
+    -webkit-transform: translateY(36px);
+    -moz-transform: translateY(36px);
+    -ms-transform: translateY(36px);
+    -o-transform: translateY(36px);
+	transform: translateY(36px);
+}
 .video-js .vjs-control-bar .vjs-time-control,.video-js .vjs-control-bar .vjs-time-control span{
 font-size:13px;
 }
