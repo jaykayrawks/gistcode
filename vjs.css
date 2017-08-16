@@ -1,11 +1,5 @@
-/*.video-js:hover .vjs-big-play-button{background:red;}
-
-.vjs-progress-control,.vjs-progress-control:hover{height:6px;}
-.video-js:hover .vjs-progress-control{height:6px;}
-*/
-
-/* CSS Document */
-
+@charset "UTF-8";
+/* Brightcove player CSS Document */
 .video-js .vjs-big-play-button {
 	border: 2px solid white;
 }
@@ -21,7 +15,7 @@
 	margin-top: -.75em;
 	width: 1.5em;
 	height: 1.5em;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 .video-js .vjs-progress-control,.video-js .vjs-progress-control:hover {
 	height: 0.33em;
@@ -46,7 +40,8 @@
 	   background-color: transparent;
 }
 .video-js .vjs-control-bar{
-height:36px;}
+	height:36px;
+}
 .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar, .bc-player-BkzbOUQRmW_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-control-bar, .bc-player-BkzbOUQRmW_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar {
     -webkit-transform: translateY(36px);
     -moz-transform: translateY(36px);
@@ -55,10 +50,13 @@ height:36px;}
 	transform: translateY(36px);
 }
 .video-js .vjs-control-bar .vjs-time-control,.video-js .vjs-control-bar .vjs-time-control span{
-font-size:13px;
+	font-size:13px;
 }
-
 .video-js .vjs-control-bar .vjs-play-control,
 .video-js .vjs-control-bar .vjs-volume-panel,
 .video-js .vjs-control-bar .vjs-fullscreen-control{margin-top:-3px;}
-
+.vjs-time-tooltip,
+.vjs-time-tooltip{
+line-height: initial;
+top: -2.7em;
+}
